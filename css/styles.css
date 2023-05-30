@@ -1,0 +1,173 @@
+:root {
+  --main-green-color: #28a745;
+
+  --main-white-text-color: #ffffff;
+  --second-white-text-color-hero: #e9e9e9;
+
+  --main-black-text-color: #333333;
+
+  --blue-background-color: #0284d0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.image {
+  display: block;
+}
+
+/* ------ HEADER ------ */
+
+.header {
+  background-color: #333333;
+}
+
+.logo {
+  font-size: 35px;
+  line-height: 1.2;
+  color: var(--main-green-color);
+}
+
+.logo-item {
+  color: var(--main-white-text-color);
+}
+
+/* ------ NAVIGATION-MENU ------ */
+
+.menu {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.menu-link {
+  color: var(--main-white-text-color);
+}
+
+/* ------ HERO ------ */
+
+.section-hero {
+  background-color: #333333;
+}
+
+.main-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  color: var(--second-white-text-color-hero);
+}
+
+.hero-item {
+  font-size: 22px;
+  line-height: 1.68;
+  color: var(--second-white-text-color-hero);
+}
+
+.hero-button {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--main-white-text-color);
+  background-color: var(--main-green-color);
+}
+
+/* ------ SECTION-SOLUTION 2------ */
+
+.section-solution {
+  background-color: var(--main-green-color);
+}
+
+.section-solution .about-text {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--main-white-text-color);
+}
+
+.solution-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--main-white-text-color);
+}
+
+.section-solution .info-item {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--main-white-text-color);
+}
+
+.solution-button {
+  border: 1px solid var(--main-white-text-color);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--main-white-text-color);
+}
+
+/* ------ SECTION-BUSINESS-CASES-3 ------ */
+
+.section-business {
+}
+
+.section-business .about-text {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--main-black-text-color);
+}
+
+.section-business .business-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--main-black-text-color);
+}
+
+.section-business .info-item {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--main-black-text-color);
+}
+
+.section-business .business-list {
+}
+
+/* ------ SECTION-BLOG-POST-ONE-4 ------ */
+
+.section-post {
+  background-color: var(--blue-background-color);
+}
+
+.section-post .text-time {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--main-white-text-color);
+}
+
+.section-post .post-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--main-white-text-color);
+}
+
+.section-post .info-item {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--main-white-text-color);
+}
+
+.section-post .post-button {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--main-white-text-color);
+  padding: 10px 36px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
