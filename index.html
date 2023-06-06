@@ -219,7 +219,22 @@
             alt="man with phone"
             width="670"
           />
-          <h2 class="callback-title">Request Callback</h2>
+          <div class="section-callback-form">
+            <h2 class="callback-title">Request Callback</h2>
+            <form action="callback">
+              <label for="user-name">
+                <input
+                  type="text"
+                  name="user-name"
+                  placeholder="Enter your name"
+                />
+              </label>
+              <label>
+                <input type="email" name="email" placeholder="Enter email*" />
+              </label>
+            </form>
+            <button class="btn" type="button">Send</button>
+          </div>
         </div>
       </section>
       <!-- footer -->
@@ -227,32 +242,44 @@
         <div class="container">
           <!-- social-media -->
           <ul class="list">
-            <li>
+            <li class="footer-list-item">
               <img
+                class="image"
                 src="./images/footer-social-media/facebook.svg"
                 alt="facebook logo"
+                width="35"
+                height="35"
               />
             </li>
-            <li>
+            <li class="footer-list-item">
               <img
+                class="image"
                 src="./images/footer-social-media/twitter.svg"
                 alt="twitter logo"
+                width="35"
+                height="35"
               />
             </li>
-            <li>
+            <li class="footer-list-item">
               <img
+                class="image"
                 src="./images/footer-social-media/youtube.svg"
                 alt="youtube logo"
+                width="40"
+                height="35"
               />
             </li>
-            <li>
+            <li class="footer-list-item">
               <img
+                class="image"
                 src="./images/footer-social-media/linkedin.svg"
                 alt="linkedin logo"
+                width="31"
+                height="35"
               />
             </li>
           </ul>
-          <p>Copyright &#169; 2021 - FinanceLedger</p>
+          <p class="footer-text">Copyright &#169; 2021 - FinanceLedger</p>
         </div>
       </footer>
     </main>
